@@ -26,5 +26,19 @@ options:
 -v : show nonprinting characters in the output
 -s : Removes all the blank spaces from the output
 
+# Axum + SQLx CRUD REST API 
+Database-driven CRUD (Create, Read, Update, Delete) backend API using the Rust ecosystem. Covers building simple Todo list that allows to create a new task, get the list of all tasks, look up a task by id, delete a task by its id, and finally update an existing task.
+
+Tech stack used for building this project: 
+
+- postgres: Open-source database
+
+- axum: API framework 
+
+- SQLx: Very fast compile time db library. 
+
+- tokio: Async event-driven library  
+
+- serde: Library for serializing and deserializing data structures
 
 
